@@ -1,0 +1,145 @@
+@import url(https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Roboto:wght@100;400;500;700;900&family=Salsa&display=swap);
+
+* {
+    box-sizing: border-box;
+    font-family: Mulish, sans-serif;
+    margin: 0;
+    padding: 0
+}
+
+#root {
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    width: 100vw
+}
+
+.outer h4 {
+    cursor: pointer;
+    margin: 50px auto 15px;
+    text-align: center;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content
+}
+
+h4:hover a {
+    text-decoration: underline
+}
+
+h4>a {
+    color: #463eea
+}
+
+.form {
+    background: #fff;
+    border-radius: 4px;
+    border-top: 1px solid green;
+    box-shadow: 0 6px 8px 0 #0003;
+    gap: 15px;
+    gap: 12px;
+    padding: 50px
+}
+
+.form,
+form {
+    display: flex;
+    flex-direction: column
+}
+
+form {
+    font-size: 20px;
+    gap: 15px
+}
+
+form div {
+    flex-direction: column;
+    gap: 15px
+}
+
+form div,
+form input {
+    display: flex;
+    width: 100%
+}
+
+form input {
+    align-items: flex-start;
+    border: none;
+    border-radius: 5px;
+    flex-shrink: 0;
+    gap: 12px;
+    height: 45px;
+    outline: 1px solid gray;
+    padding: 0 12px
+}
+
+input:focus {
+    border: 1.5px solid #463eea
+}
+
+form a {
+    color: #463eea;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none
+}
+
+button {
+    align-items: center;
+    background: linear-gradient(180deg, #625bf7, #463eea);
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    display: flex;
+    flex-shrink: 0;
+    gap: 10px;
+    height: 45px;
+    justify-content: center;
+    padding: 9px 14px
+}
+
+.profile {
+    background: #fff;
+    border-radius: 4px;
+    border-top: 1px solid green;
+    box-shadow: 0 6px 8px 0 #0003;
+    flex-direction: column;
+    gap: 15px;
+    gap: 12px;
+    padding: 50px;
+    width: 500px
+}
+
+.profile,
+.profile p {
+    display: flex;
+    flex-wrap: wrap
+}
+
+.profile p {
+    align-items: center;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    justify-content: space-between;
+    width: 100%;
+    word-break: break-all
+}
+
+.profile img {
+    border: 1px solid #000;
+    border-radius: 50%;
+    height: 200px;
+    margin: auto;
+    padding: 20px;
+    width: 200px
+}
+
+#err {
+    color: red;
+    text-align: center
+}
+
+/*# sourceMappingURL=main.e53584c8.css.map*/
